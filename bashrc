@@ -10,6 +10,9 @@ alias ls="ls --color --group-directories-first -h -S -s"
 
 alias opencv='~/compile_opencv.sh'
 
+# use vim as default editor
+export EDITOR=vim;
+
 ##added for ctags
 export PATH="$HOME/bin:$PATH"
 #export GIT_REPO=$HOME/Documents/git-repo
